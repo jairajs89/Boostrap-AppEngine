@@ -33,6 +33,7 @@ class MainHandler(RequestHandler):
 			html = render_template(path)
 		except:
 			html = render_template('missing')
+			self.response.set_status(404)
 
 		self.response.out.write(html)
 
