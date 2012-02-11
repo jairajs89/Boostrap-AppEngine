@@ -1,0 +1,11 @@
+footer p {
+	margin: 0;
+}
+
+
+
+@media (min-width: 980px) {
+	body {
+		padding-top: 60px;
+	}
+}
